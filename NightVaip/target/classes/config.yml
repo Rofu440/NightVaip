@@ -1,0 +1,13 @@
+start:
+  - '/maintenance off'
+  - '/whitelist off'
+  - '/day'
+  - '/gamerule doDaylightCycle true'
+stop:
+  - '/maintenance on'
+  - '/whitelist on'
+  - '/day'
+  - '/gamerule doDaylightCycle false'
+info:
+  - '&6/vaip start &f- открывает сервер с вайпа'
+  - '&6/vaip stop &f- закрывает сервер на вайп'

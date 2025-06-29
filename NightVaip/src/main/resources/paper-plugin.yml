@@ -1,0 +1,13 @@
+name: NightVaip
+version: '1.0'
+main: org.rofu.nightvaip.NightVaip
+api-version: '1.20'
+author: Rofu
+description: Плагин для удобного управления вайпами
+commands:
+  Vaip:
+    description: Команды для управления вайпом
+    usage: /vaip <start|stop|help>
+permissions:
+  vaip.admin:
+    default: op
